@@ -73,6 +73,7 @@ body {
                 &.secont--hand {
                     height: 35%;
                     transform: rotate(180deg);
+                    transition: 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
                 }
             }
 
