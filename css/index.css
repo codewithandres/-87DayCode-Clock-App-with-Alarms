@@ -59,6 +59,7 @@ body {
                 transform-origin: top;
                 background-color: var(--primary-color);
                 z-index: 1;
+                transition: 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
 
                 &.hour--hand {
                     height: 25%;
@@ -73,7 +74,6 @@ body {
                 &.secont--hand {
                     height: 35%;
                     transform: rotate(180deg);
-                    transition: 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
                 }
             }
 
