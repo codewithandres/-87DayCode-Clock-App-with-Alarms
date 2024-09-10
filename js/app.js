@@ -7,7 +7,7 @@ const Elementclock = {
     pm: document.querySelector('.pm'),
 };
 
-const setTime = ({ secondHand, minuteHand, hourHand, am }) => {
+const setTime = ({ secondHand, minuteHand, hourHand, am, pm }) => {
     const now = new Date();
     const today = now.getDay();
 
