@@ -40,7 +40,6 @@ const initClock = ({ clock }) => {
         numbers.innerHTML += ` <div class="number" style="--i: ${i}"><span>${i}</span></div>`;
         lines.innerHTML += ` <div class="line" style="--i: ${i}"></div>`;
     }
-
     setInterval(() => setTime(Elementclock), 1000);
 };
 
